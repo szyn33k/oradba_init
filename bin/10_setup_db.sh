@@ -114,7 +114,7 @@ echo " - DB_OPATCH_PKG         = ${DB_OPATCH_PKG}"
 echo " - RESPONSE_FILE_VERSION = ${RESPONSE_FILE_VERSION}"
 
 # check space
-echo " - Check available space ----------------------------------------------"
+echo " - Check available space 22----------------------------------------------"
 REQUIRED_SPACE_GB=1
 AVAILABLE_SPACE_GB=$(df -PB 1G $ORACLE_BASE | tail -n 1 | awk '{ print $4 }')
 
