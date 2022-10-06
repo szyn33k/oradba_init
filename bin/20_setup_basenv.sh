@@ -127,7 +127,7 @@ fi
 # - Configure custom basenv folders -----------------------------------------
 
 # define the oradba url and package name
-export GITHUB_URL="https://codeload.github.com/szyn33k/oradba/zip/master"
+export GITHUB_URL="https://codeload.github.com/oehrlis/oradba/zip/master"
 export ORADBA_PKG="oradba.zip" 
 # - Get oradba init scripts -----------------------------------------------
 echo " - Get oradba scripts -------------------------------------------------"
